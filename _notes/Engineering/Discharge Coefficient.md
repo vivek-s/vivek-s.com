@@ -2,15 +2,13 @@ up: [[Fluid Mechanics]]
 
 ## Incompressible flow
 Discharge coefficient of  a nozzle or a valve is the ratio of actual discharge to ideal discharge.
->[!Summary]
+>
 $$Q = C_dA_t\left[\frac{2(p_1-p_2)}{\rho(1-\beta^4)}\right]^{1/2}$$
 
 where,
 
 $\beta$ - diameter ratio (throat dia/inlet dia)
-
 $A_t$ - Throat area
-
 
 The $(1-\beta^4)^{-1/2}$ term is also known as *velocity-of-approach* factor
 ### Flow Coefficient
@@ -38,13 +36,12 @@ Assume circular pipe,
 $$\pi\frac{D_1^2}{4}v_1=\pi\frac{d^2}{4}v_t = \pi\frac{D_2^2}{4}v_2$$
 
 Note that we assume density is constant. $D_1$ is the diameter at the inlet and $d$ is the diameter at the throat.
+
 $$v_1=\frac{D_2^2}{D_1^2}v_2$$
 
-
-
 To get ideal flow rate, we will ignore friction and viscosity effects. Applying Bernoulli's equation between points 1 and 2
-$$p_1+\frac{1}{2}\rho v_1^2 = p_2+\frac{1}{2}\rho v_2^2$$
 
+$$p_1+\frac{1}{2}\rho v_1^2 = p_2+\frac{1}{2}\rho v_2^2$$
 
 substituting for $v_1$
 
@@ -66,4 +63,5 @@ $$C_d=\frac{Q_{actual}}{A_t\sqrt{\frac{2(p_1-p_2)}{\rho(1-\beta^4)}}}$$
 
 
 Or 
+
 $$Q_{actual} = C_dA_t\left[\frac{2(p_1-p_2)\rho}{1-\beta^4}\right]^{1/2}$$
