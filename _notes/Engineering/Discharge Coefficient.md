@@ -7,8 +7,13 @@ $$Q = C_dA_t\left[\frac{2(p_1-p_2)}{\rho(1-\beta^4)}\right]^{1/2}$$
 
 where,
 
+$Q$ - volumetric flow rate
+$C_d$ - coefficient of discharge
+$A_t$ - throat area
+$p_x$ - pressure at location $x$
 $\beta$ - diameter ratio (throat dia/inlet dia)
-$A_t$ - Throat area
+$\rho$ - density
+
 
 The $(1-\beta^4)^{-1/2}$ term is also known as *velocity-of-approach* factor
 ### Flow Coefficient
@@ -64,4 +69,4 @@ $$C_d=\frac{Q_{actual}}{A_t\sqrt{\frac{2(p_1-p_2)}{\rho(1-\beta^4)}}}$$
 
 Or 
 
-$$Q_{actual} = C_dA_t\left[\frac{2(p_1-p_2)\rho}{1-\beta^4}\right]^{1/2}$$
+$$Q_{actual} = C_dA_t\left[\frac{2(p_1-p_2)}{\rho(1-\beta^4)}\right]^{1/2}$$
