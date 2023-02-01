@@ -70,3 +70,5 @@ $$C_d=\frac{Q_{actual}}{A_t\sqrt{\frac{2(p_1-p_2)}{\rho(1-\beta^4)}}}$$
 Or 
 
 $$Q_{actual} = C_dA_t\left[\frac{2(p_1-p_2)}{\rho(1-\beta^4)}\right]^{1/2}$$
+# Reference
+1. *Fluid Mechanics*, Frank White 
