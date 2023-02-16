@@ -1,3 +1,7 @@
+---
+title: Discharge Coefficient
+---
+
 up: [[Fluid Mechanics]]
 
 ## 1. Incompressible flow

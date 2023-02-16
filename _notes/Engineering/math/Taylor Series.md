@@ -1,3 +1,6 @@
+---
+---
+
 Taylor series expansion of a function *about a point* is an expression of the given function in terms of sum of polynomials with its coefficients given by derivatives of various orders.
 
 A function $f(x)$ can be expressed at a point $x=a$ as

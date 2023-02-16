@@ -1,3 +1,7 @@
+---
+title: Friction Factor
+---
+
 up:: [[Fluid Mechanics]]
 related:: [[Moody chart]], [[Methods for Calculating Friction Factor]]
 
@@ -25,11 +29,11 @@ for Laminar flow $$f_D=\frac{64}{Re}$$
 ## 2. Fanning Friction factor
 Fanning friction factor 
 
-$$f=\frac{\uptau}{\rho\frac{v^2}{2}}$$
+$$f=\frac{\tau}{\rho\frac{v^2}{2}}$$
 
 where,
 $f$ is fanning friction factor
-$\uptau$ is shear stress
+$\tau$ is shear stress
 
 Its related to Darcy friction factor by
 

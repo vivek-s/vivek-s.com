@@ -15,7 +15,7 @@ $$f_D=\frac{64}{Re}$$
 
 ## 2. Turbulent Flow
 ### 2.1. Colebrook Equation
-Also called Colebrook-White. It is the classic formulation for [[Darcy friction factor]]. However it is implicit ($f_D$ term is in both left and right sides of the equation) and needs iteration
+Also called Colebrook-White. It is the classic formulation for Darcy friction factor. However it is implicit ($f_D$ term is in both left and right sides of the equation) and needs iteration
 
 $$\frac{1}{\sqrt{f_D}}=-2log_{10}\left[\left(\frac{\varepsilon /D}{3.7}\right) + \frac{2.51}{Re\sqrt{f_D}}\right]$$
 
