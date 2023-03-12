@@ -1,4 +1,3 @@
-
 ---
 title: Solving Spring-Mass-Damper ODE with Matlab and Python
 ---

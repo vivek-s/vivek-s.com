@@ -1,3 +1,6 @@
+---
+title: Emissivity
+---
 Emissivity is defined as
 $$\epsilon = \frac{Energy\ radiated\ by\ a\ material's\ surface}{Energy\ radiated\ by\ a\ black\  body\ at\ same\ conditions}$$
 For Thermal Equilibrium of  a body

@@ -1,3 +1,6 @@
+---
+title: Radiation
+---
 The amount of radiation from a source surface $i$ to target surface $j$ is given by the Stefan Boltzmann's law
 $$Q_{ij} = A_i\epsilon_iF_{ij}\sigma(T^4_i-T^4_j)$$
 where,

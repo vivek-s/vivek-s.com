@@ -1,5 +1,5 @@
 ---
-Linear Indpendence of Vectors
+title: Linear Indpendence of Vectors
 ---
 
 A given set of vectors $A_1$, $A_2$,$A_3$,.. $A_n$ are said to be linearly independent if 
