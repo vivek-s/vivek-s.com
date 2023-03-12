@@ -1,7 +1,7 @@
 ---
 title: Methods for Calculating Friction Factor
 ---
-up::[[Friction Factor]]
+up::[[friction_factor]]
 
 The Darcy friction factor is a function of
 
@@ -19,7 +19,7 @@ Also called Colebrook-White. It is the classic formulation for Darcy friction fa
 
 $$\frac{1}{\sqrt{f_D}}=-2log_{10}\left[\left(\frac{\varepsilon /D}{3.7}\right) + \frac{2.51}{Re\sqrt{f_D}}\right]$$
 
-It was developed by Colebrook in 1939 extending work of Nikuradse who was a student of Prandtl. It was been plotted by Moody in 1944 into what is known as [[Moody chart]]
+It was developed by Colebrook in 1939 extending work of Nikuradse who was a student of Prandtl. It was been plotted by Moody in 1944 into what is known as [[moody_chart]]
 
 ### 2.2. Haaland Equation
 
@@ -30,7 +30,7 @@ $$\frac{1}{\sqrt{f_D}}=-\frac{1.8}{n}log\left[\left(\frac{\varepsilon /D}{3.7}\r
 where,
 
 $\varepsilon /D$ is the pipes relative roughness
-$Re$ is the [[Reynolds Number]]
+$Re$ is the [[reynolds_number]]
 n=1 for liquids and n=3 for gases
 
 Reference: [Review of explicit approximations to the Colebrook relation for flow friction (hal.science)](https://hal.science/hal-01586547/document)

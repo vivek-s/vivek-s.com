@@ -6,12 +6,13 @@ Single phase flow through pipes is one of the most common scenarios in engineeri
 
 Key terms in the page
 
-$Nu_D$ -  [[Nusselt Number]]
-$Re_D$ - [[Reynolds Number]]
-$Pr$ -  [[Prandtl Number]]
+$Nu_D$ -  [[nusselt_number]]
+$Re_D$ - [[reynolds_number]]
+$Pr$ -  [[prandtl_number]]
 
 ## 1. Dittus Boelter
 For a *smooth* tube with *small* temperature difference across the fluid in the thermal boundary layer
+
 $$Nu_D=0.023Re^{4/5}_DPr^n$$
 
 where,
@@ -41,10 +42,30 @@ L/D \ge 10
 \end{bmatrix}$$
 
 The properties of the fluid need to be ealuated at film temperature or mean fluid temperature $T_f = (T_s + T_f)/2$ 
+There seems to be no information on how different the formulation will be 
 
-## 3. Chilton-Colburn
-It is a simpler expression for turbulent flow through *smooth* pipes. It is not accurate as above options. 
+## 3. Sieder-Tate
+Sieder Tate is a refinement over Dittus Boelter for fluids where the temperature gradient between wall and fluid is high (as determined by whether viscosity changes significantly over the operating temeprature range). Note that Sieder Tate is *implicit* and requires iteration to sove
+
+
+$$Nu_D=0.027 Re_D^{4/5}Pr^{1/3} \left(\frac{\mu_f}{\mu_s} \right)^{0.14}$$
+valid for 
+
+$$\begin{bmatrix}  
+0.6 \le Pr \le 16700 \\
+Re_D \ge 10000 \\
+L/D \ge 10
+\end{bmatrix}$$
+
+where,
+$\mu_f$ is fluid viscosity at bulk fluid temperatures
+$\mu_s$ is fluid viscosity at surface(wall) temperature.
+
+## 4. Chilton-Colburn
+It is a simple expression for turbulent flow through *smooth* pipes. It is not accurate as some of the above options. 
 
 $$Nu_D=0.125f_DRe_DPr^{1/3}$$
+
+where $f_D$ is the [[friction_factor]]
 
 Reference: *"Heat and Mass Transfer: Fundamental and Applicaitons"*, Cengel & Ghajar

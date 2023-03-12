@@ -4,8 +4,8 @@ title: Engineering
 
 These are notes that I take during my regular learning (and re-learning) of various topics related to Aerospace engineering.
 
-- [[Fluid Mechanics]]
+- [[fluid_mechanics]]
 	- [[Computational Fluid Dynamics]]
-- [[Heat Transfer]]
+- [[heat_transfer]]
 - [[Solid Mechanics]]
-- [[Engineering Mathematics]]
+- [[engineering_math]]

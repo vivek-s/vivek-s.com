@@ -2,7 +2,7 @@
 title: Discharge Coefficient
 ---
 
-up: [[Fluid Mechanics]]
+up: [[fluid_mechanics]]
 
 ## 1. Incompressible flow
 Discharge coefficient of  a nozzle or a valve is the ratio of actual discharge to ideal discharge. For incompressible flow it can be expressed as

@@ -2,8 +2,8 @@
 title: Friction Factor
 ---
 
-up:: [[Fluid Mechanics]]
-related:: [[Moody chart]], [[Methods for Calculating Friction Factor]]
+up:: [[fluid_mechanics]]
+related:: [[moody_chart]], [[friction_factor_calculations]]
 
 The Darcy friction factor was first described by Julius Weisbach, a German professor who in 1850 published the first  modern thextbook on hydrodynamics. It is named after Henry Darcy, a French engieer whose experiments in 1857 first established the effect of roughness on pipe resistance
 
