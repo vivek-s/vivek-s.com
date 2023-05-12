@@ -1,9 +1,9 @@
 ---
 title: Methods for Calculating Friction Factor
 ---
-up::[[friction_factor]]
+up::[[friction_factor|Friction Factor]]
 
-The Darcy friction factor is a function of
+The friction factor is a function of
 
 $$f_d = fnc(Re_D, \frac{\epsilon}{D}, duct\ shape)$$
 
@@ -11,15 +11,16 @@ For everything other than laminar flow, emperical correlations need to be used t
 
 ## 1. Laminar Flow
 
+For laminar flow, the friction factor can be calculated by a simple formula shown below. Note that friction factor is only a function of Reynolds number
 $$f_D=\frac{64}{Re}$$
 
 ## 2. Turbulent Flow
 ### 2.1. Colebrook Equation
-Also called Colebrook-White. It is the classic formulation for Darcy friction factor. However it is implicit ($f_D$ term is in both left and right sides of the equation) and needs iteration
+It is also called Colebrook-White equation. It is the classic formulation for Darcy friction factor. However it is implicit ($f_D$ term is in both left and right sides of the equation) and needs iteration
 
 $$\frac{1}{\sqrt{f_D}}=-2log_{10}\left[\left(\frac{\varepsilon /D}{3.7}\right) + \frac{2.51}{Re\sqrt{f_D}}\right]$$
 
-It was developed by Colebrook in 1939 extending work of Nikuradse who was a student of Prandtl. It was been plotted by Moody in 1944 into what is known as [[moody_chart]]
+It was developed by Colebrook in 1939 extending work of Nikuradse who was a student of Prandtl. It was been plotted by Moody in 1944 into what is known as [[moody_chart|Moody Chart]]
 
 ### 2.2. Haaland Equation
 
@@ -41,3 +42,6 @@ Darcy Friction Factor  for a *smooth* tube can be given by
 $$f_D = (0.790 ln(Re) - 1.64)^{-2}$$
 
 for $10^4<Re<10^6$
+
+## 3. References
+- [wikipedia]([Darcy friction factor formulae - Wikipedia](https://en.wikipedia.org/wiki/Darcy_friction_factor_formulae))

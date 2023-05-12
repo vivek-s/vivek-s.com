@@ -3,7 +3,7 @@ title: Reynolds Number
 ---
 
 Reynolds number is defined as 
-$$\mathrm{Re} =\frac{u L}{\nu} = \frac{\rho u L}{\mu}$$
+$$\mathrm{Re} =\frac{u L}{\nu} = \frac{\rho u L}{\mu}=\frac{\dot{m}L}{A\mu}$$
 
 
 ## 1. Internal pipe flows 

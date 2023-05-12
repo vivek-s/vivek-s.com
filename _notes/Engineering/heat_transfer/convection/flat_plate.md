@@ -13,3 +13,7 @@ $$Pr > 0.6$$
 
 ## 2. Turbulent Flow
 
+$$Nu_L=0.0296Re_x^{4/5}Pr^{1/3}$$
+valid for 
+
+$$0.6 < Pr < 60$$
